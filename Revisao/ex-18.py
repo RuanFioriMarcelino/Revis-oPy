@@ -1,5 +1,3 @@
-""" Acrescente uma mensagem 'NOVO CÁLCULO (S/N)?' ao final do exercício [17]. Se for respondido 'S' deve retornar e executar um novo cálculo, caso contrário deverá encerrar o algoritmo. """
-
 def calcular(x):
     if x == "S":
         n1 = int(input(f"Digite o valor 1: "))
